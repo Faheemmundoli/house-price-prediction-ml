@@ -1,5 +1,7 @@
 # House Price Prediction using Machine Learning
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Faheemmundoli/house-price-prediction-ml/blob/main/house_price_prediction.ipynb)
+
 Mini project for **Machine Learning Lab (AIM 3130)**, B.Tech CSE (AIML), Manipal University Jaipur, Aug-Dec 2026.
 
 ## Problem Statement
@@ -20,18 +22,24 @@ California Housing dataset from scikit-learn (`fetch_california_housing`).
 
 ## Results
 
+All errors are in units of $100,000.
+
 | Model | MAE | RMSE | R2 |
 |---|---|---|---|
-| Linear Regression | (fill in) | (fill in) | (fill in) |
-| Decision Tree | (fill in) | (fill in) | (fill in) |
-| Random Forest | (fill in) | (fill in) | (fill in) |
+| Linear Regression | 0.533 | 0.746 | 0.576 |
+| Decision Tree | 0.448 | 0.650 | 0.678 |
+| Random Forest | 0.346 | 0.523 | 0.791 |
 
-Copy these numbers from the results table in the notebook.
+After tuning with Randomized Search, the Random Forest reached a cross-validation R2 of 0.798 and a test R2 of 0.804.
 
-**Conclusion:** (write your own conclusion here: which model was best and which feature mattered most)
+**Key findings**
+- Random Forest performed best on every metric, with a typical error (RMSE) of about $52,000.
+- Linear Regression was the weakest, because it cannot capture non-linear patterns.
+- Median income (`MedInc`) was by far the most important feature (importance about 0.53), followed by `AveOccup`, `Latitude` and `Longitude`.
+- In the correlation heatmap, `MedInc` has the strongest link with house value (0.69).
 
 ## How to Run
-Open the notebook in Google Colab (use the badge or open `house_price_prediction.ipynb`) and click **Runtime -> Run all**. No dataset upload is needed, because the data loads from scikit-learn.
+Click the **Open In Colab** badge above, or open `house_price_prediction.ipynb` in Google Colab, and click **Runtime -> Run all**. No dataset upload is needed, because the data loads from scikit-learn.
 
 To run locally:
 
@@ -40,12 +48,17 @@ pip install -r requirements.txt
 jupyter notebook house_price_prediction.ipynb
 ```
 
+## Repository Files
+- `house_price_prediction.ipynb` - the full notebook with code and outputs
+- `requirements.txt` - the Python libraries used
+- `README.md` - this file
+
 ## Tech Stack
 Python, pandas, NumPy, scikit-learn, matplotlib, seaborn
 
 ## Limitations and Future Work
-- House values are capped at $500,000 in the data, so very expensive districts are predicted poorly.
-- Only 8 features are used. Gradient Boosting or more location features could improve the results.
+- House values are capped at $500,000 in the data, so the model underpredicts the most expensive districts (visible as a vertical line of points in the Actual vs Predicted plot).
+- Only 8 features are used. Gradient Boosting or more location-based features could improve the results.
 
 ## Author
 Faheem M
