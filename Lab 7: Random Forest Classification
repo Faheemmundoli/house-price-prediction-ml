@@ -66,36 +66,15 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "qRS1CdaqHUQ6",
-        "outputId": "8ee7b438-9ef4-4b2f-9e2f-15822c9d1d2a"
+        "outputId": "b1d66691-a528-4786-f042-55b90659ddda"
       },
-      "execution_count": null,
+      "execution_count": 1,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Downloading to /root/.cache/kagglehub/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results/2.archive...\n"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "100%|██████████| 5.43M/5.43M [00:00<00:00, 7.59MB/s]"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Extracting files...\n"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "\n"
+            "Using Colab cache for faster access to the '120-years-of-olympic-history-athletes-and-results' dataset.\n"
           ]
         }
       ]
@@ -126,9 +105,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "ipMR3LJ1HebY",
-        "outputId": "6dd286b3-7dda-4d3f-c4ad-5369a332301a"
+        "outputId": "44fe4d1d-5445-4f25-bf4d-54364342a134"
       },
-      "execution_count": null,
+      "execution_count": 2,
       "outputs": [
         {
           "output_type": "stream",
@@ -166,9 +145,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "PwC1LWyNHlMy",
-        "outputId": "c71fa359-04cf-4d17-c093-20bbe4ee66b3"
+        "outputId": "3fa8835c-47d5-438f-e1ad-60777fe003c1"
       },
-      "execution_count": null,
+      "execution_count": 3,
       "outputs": [
         {
           "output_type": "stream",
@@ -218,9 +197,9 @@
           "height": 112
         },
         "id": "zItkFwymHsxD",
-        "outputId": "398bb487-63d4-4de7-e19a-306bb692445a"
+        "outputId": "316ce5e8-d751-4f7b-a031-fb9d46fd5d54"
       },
-      "execution_count": null,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -232,7 +211,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-81015c5a-672f-475f-9ae8-668314676dbc\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-5de02536-acc7-4bfa-9aef-683e6bad8121\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -275,7 +254,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-81015c5a-672f-475f-9ae8-668314676dbc')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-5de02536-acc7-4bfa-9aef-683e6bad8121')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -327,12 +306,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-81015c5a-672f-475f-9ae8-668314676dbc button.colab-df-convert');\n",
+              "        document.querySelector('#df-5de02536-acc7-4bfa-9aef-683e6bad8121 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-81015c5a-672f-475f-9ae8-668314676dbc');\n",
+              "        const element = document.querySelector('#df-5de02536-acc7-4bfa-9aef-683e6bad8121');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -352,7 +331,7 @@
               "  </div>\n",
               "\n",
               "\n",
-              "  <div id=\"id_de3d50b2-35aa-4dd0-ae1c-d95fb438a5fe\">\n",
+              "  <div id=\"id_c568bd97-398f-44f0-824d-ae395809535b\">\n",
               "    <style>\n",
               "      .colab-df-generate {\n",
               "        background-color: #E8F0FE;\n",
@@ -396,7 +375,7 @@
               "    <script>\n",
               "      (() => {\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#id_de3d50b2-35aa-4dd0-ae1c-d95fb438a5fe button.colab-df-generate');\n",
+              "        document.querySelector('#id_c568bd97-398f-44f0-824d-ae395809535b button.colab-df-generate');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
@@ -437,9 +416,9 @@
           "height": 488
         },
         "id": "h1o2zEoNHxAL",
-        "outputId": "7e75d17f-1b14-4465-d94e-3064dfca7393"
+        "outputId": "c3a9efa0-980f-4092-eb1c-79d4ac7d3148"
       },
-      "execution_count": null,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "display_data",
@@ -482,9 +461,9 @@
           "height": 488
         },
         "id": "cSwcuhXuH3kn",
-        "outputId": "ad7baa58-91e5-41c7-df68-d9d86ec2fe59"
+        "outputId": "77ca5671-025b-467f-efce-88580a2f709b"
       },
-      "execution_count": null,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "display_data",
@@ -530,12 +509,12 @@
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 419
+          "height": 488
         },
         "id": "VaBOe_8zIEjc",
-        "outputId": "c42938fe-d537-422e-a9b4-cb9ed26b6b7e"
+        "outputId": "bb62d74b-9f00-4f52-e137-9289193e43bd"
       },
-      "execution_count": null,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "display_data",
@@ -572,13 +551,13 @@
       ],
       "metadata": {
         "id": "R69lDIdjINrp",
-        "outputId": "c8228148-af12-4972-cb29-707a2f041f51",
+        "outputId": "abc77778-991a-4937-d06d-493c746b0704",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 411
         }
       },
-      "execution_count": null,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "display_data",
